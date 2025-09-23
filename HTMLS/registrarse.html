@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrarse</title>
+</head>
+<body>
+
+    <h1>REGISTRARSE</h1>
+
+    <form action="/registro" method="POST">
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <select name="dia" id="dia">
+            <option value="">Día</option>
+            </select>
+        <select name="mes" id="mes">
+            <option value="">Mes</option>
+            </select>
+        <select name="año" id="año">
+            <option value="">Año</option>
+            </select>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="nombre_usuario">Nombre de Usuario:</label>
+        <input type="text" id="nombre_usuario" name="nombre_usuario">
+        <br><br>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña">
+        <br><br>
+        
+        <div>[Espacio para imagen]</div>
+        <br><br>
+
+        <button type="submit">REGISTRAR</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Error del Sistema</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/errorsistema.css') }}">
+
+    
+</head>
+<body>
+    <div class="container">
+        <h1>¡Error Interno del Sistema! 😥</h1>
+        <p>Ha ocurrido un problema al procesar su solicitud. Es posible que haya un inconveniente con el servidor de la base de datos.</p>
+        <p>Por favor, inténtelo de nuevo más tarde o contacte al administrador del sistema.</p>
+        <a href="{{ url_for('login') }}">Volver al inicio de sesión</a>
+    </div>
+</body>
+</html>

@@ -4,6 +4,7 @@ CREATE TABLE usuarios (
   email VARCHAR(255) NOT NULL UNIQUE,
   password VARCHAR(255) NOT NULL,
   rol ENUM('profesor', 'alumno') NOT NULL,
+  fecha_nacimiento DATE NOT NULL,
   fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 

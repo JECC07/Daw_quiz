@@ -1,1 +1,34 @@
-.venv
+# Entorno virtual
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Archivos de entorno
+*.env
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de compilación
+*.so
+
+# Archivos de logs
+*.log
+
+# Archivos de base de datos SQLite
+*.sqlite3
+*.db
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Archivos de distribución
+dist/
+build/
+*.egg-info/
